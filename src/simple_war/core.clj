@@ -43,7 +43,7 @@
       (handler request))))
 
 (defroutes main-routes
-  (GET "/" [] "<h1>Hello World Wide Web!!!!!!!!!!!</h1>")
+  (GET "/" [] "<h1>Korea Lisp 2011</h1>")
   (GET "/factorial/:n" [n]
        (str "<h1>" (factorial (bigint n)) "</h1>"))
   (GET "/fibonacci/:n" [n]
