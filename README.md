@@ -1,18 +1,18 @@
-* simple-war
+# What's this?
 
-Korea Lisp 2011 Sample Project
+Korea Lisp 2011 Sample Project. it makes very small web application.
 
-* Usage
+# Usage
 
 1. Resolve dependencies
 
-    $ lein deps
+        $ lein deps
 
 2. Run Swank
 
-    $ lein swank
+        $ lein swank
 	
 3. Compile war
 
-    $ lein uberwar
+        $ lein uberwar
 	
