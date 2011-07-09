@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>simple-webapp</servlet-name>
+		<servlet-class>simple_war.core</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>simple-webapp</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+</web-app>
